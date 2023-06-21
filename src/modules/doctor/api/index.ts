@@ -1,5 +1,5 @@
 import { instance } from "../../config/axios";
-import { City, DoctorInfo, Speciality } from "../types";
+import { City, DoctorDefaultInfo, Speciality } from "../types";
 
 const DoctorApI = {
   async getCities() {
@@ -11,7 +11,7 @@ const DoctorApI = {
     return res.data;
   },
   async getDoctors() {
-    const res = await instance.get<DoctorInfo[]>(`3d1c993c-cd8e-44c3-b1cb-585222859c21`);
+    const res = await instance.get<DoctorDefaultInfo[]>(`3d1c993c-cd8e-44c3-b1cb-585222859c21`);
     return res.data;
   },
 }
