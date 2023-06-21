@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import DoctorForm from "../../components/DoctorForm";
 import DoctorApI from "../../api";
 import { City, DoctorDefaultInfo, DoctorFullInfo, Speciality } from "../../types";
-import { Spin } from "antd";
 import Spinner from "../../../common/components/Spinner";
 
 const Doctor = () => {
