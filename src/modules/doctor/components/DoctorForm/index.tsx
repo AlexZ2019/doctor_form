@@ -103,7 +103,7 @@ const DoctorForm: FC<Props> = ({ cities, specialities, doctors}) => {
     }, 4000);
   };
 
-  return <Form className={styles.form}>
+  return <Form className={`${styles.form} center`}>
     <div className={styles.item}>
       <Controller
         name="name"

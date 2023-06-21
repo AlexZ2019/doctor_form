@@ -1,6 +1,5 @@
 .form {
   width: 400px;
-  margin: 25px auto;
   display: grid;
 }
 .form .item {
